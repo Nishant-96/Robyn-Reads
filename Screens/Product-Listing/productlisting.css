@@ -51,6 +51,24 @@
     margin-left: 16rem;
 }
 
+/* checking */
+
+.listing-pagination{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.listing-pagination >div{
+    font-weight: 600;
+    font-size:1.2rem ;
+}
+
+.listing-pagination > div:hover{
+    cursor: pointer;
+    color: var(--primary);
+}
+
 
 @media screen and (max-width: 900px) {
 
@@ -63,6 +81,10 @@
         margin-inline: auto;
     }
 
+    .listing-pagination{
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -71,3 +93,4 @@
         margin-top: 12.7rem;
     }
 }
+
