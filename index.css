@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
-@import url(./Authentication/authentication.css);
-@import url(./Wishlist/wishlist.css);
-@import url(./productlisting/productlisting.css);
-@import url(./Cartmanagement/Cartmanagment.css);
+@import url(/Screens/Authentication/authentication.css);
+@import url(/Screens/Wishlist/wishlist.css);
+@import url(/Screens/Product-Listing/productlisting.css);
+@import url(/Screens/Cart-Mangement/mycart.css);
 
 :root{
     --black: #121212;
