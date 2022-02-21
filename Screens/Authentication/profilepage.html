@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://robyn-ui.netlify.app/components/import.css">
     <link rel="stylesheet" href="/index.css">
-    <title>Robyn Reads | Login</title>
+    <title>Robyn Reads | Profile Page</title>
 </head>
 <body>
     <header class="rr-nav-container">
         <div class="header-logo"><a href="#"><img class="logo" src="/Images-Ecom/rr-logo.png"></a></div>
-  
+       
         <nav class="rr-nav-box">
             <input class="nav-search" type="search" placeholder="Search">
             <div class="nav-item"><button class="btn btn-float nav-btn nav-btn-icon" onclick="window.location.href='/index.html';"><i class="fa fa-home" aria-hidden="true"></i>
@@ -27,30 +27,36 @@
 
 
     <main class="rr-wrapper">
-
+  
         <div class="rr-authentication-container">
-
             <div class="modal authentication-container">
-                <h3 class="authentication-title">Login</h3>
-        
+                <h3 class="authentication-title">Profile Details</h3>
+    
                 <div class="authentication-content-box">
-                    <label class="authentication-label">Email</label>
-                    <input class="authentication-input" type='email' placeholder="Enter your email"/>
-                    <label class="authentication-label">Password</label>
-                    <input class="authentication-input" type='password' placeholder="Enter Password"/>
-                    
-                    <div class="authenticaton-login">
-                        <input class="authentication-input" type="checkbox"/> <label class="authentication-label">Remember Me</label>
-                        <a class=" authentication-forgot" href="/Screens/Authentication/forgotpassword.html">Forgot your password?</a>
+                    <div class="rr-profile">
+                        <h4>Full Name:</h4>
+                        <p>User</p>
                     </div>
-                    <button class="btn btn-primary authentication-btn">Log In</button>
-                    <h4 class="authentication-title">Not yet a member?</h4>
-                    <a class="authentication-signup" href="/Screens/Authentication/signup.html">Sign Up</a>
+                    <div class="rr-profile">
+                        <h4>Email: </h4>
+                        <p>LoremIpsum@email.com</p>
+                    </div>
+                    <div class="rr-profile">
+                        <h4>Mobile No.: </h4>
+                        <p>+1899 *** 9000</p>
+                    </div>
+                    <div class="rr-profile">
+                        <h4>Address: </h4>
+                        <p>Lorem Ipsum</p>
+                    </div>
+
+                    <button class="btn btn-primary authentication-btn error-btn">Log Out</button>
+                    <button class="btn btn-outlined authentication-outlined-btn error-outlined-btn">Deactivate My Account</button>
+                    
                 </div>
             </div>
-
         </div>
-  
+
     </main>
 
 
