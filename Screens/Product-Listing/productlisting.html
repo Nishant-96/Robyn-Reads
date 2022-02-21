@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Images-Ecom/rr-favicon-2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://robyn-ui.netlify.app/components/import.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>Robyn Reads | Products</title>
+</head>
+
+<body>
+    <header class="rr-nav-container">
+        <div class="header-logo"><a href="/index.html"><img class="logo"
+                    src="/Images-Ecom/rr-logo.png"></a>
+        </div>
+
+        <nav class="rr-nav-box">
+            <input class="nav-search" type="search" placeholder="Search">
+            <div class="nav-item"><button class="btn btn-float nav-btn nav-btn-icon" onclick="window.location.href='/Screens/Authentication/login.html';"><i class="fa fa-sign-in"
+                        aria-hidden="true"></i>
+                </button></div>
+            <div class="nav-item"><button class="btn btn-float nav-btn nav-btn-icon" onclick="window.location.href='../index.html';"><i class="fa fa-heart"
+                        aria-hidden="true"></i>
+                </button></div>
+            <div class="nav-item"><button class="btn btn-float nav-btn nav-btn-icon" onclick="window.location.href='../index.html';"><i class="fa fa-shopping-cart"
+                        aria-hidden="true"></i>
+                </button></div>
+        </nav>
+    </header>
+
+
+    <main class="rr-wrapper">
+        <div class="rr-listing-container">
+
+            <!-- side nav -->
+            <aside class="nav-filter nav-filter-padding">
+                <div class="nav-filter-row vertical-padding">
+                    <h3>Filter</h3>
+                    <a href="#">Clear</a>
+                </div>
+
+                <hr>
+
+                <div class="vertical-padding">
+                    <h4>Price</h4>
+                </div>
+                <div class="nav-filter-row">
+                    <span>1000</span>
+                    <span>10000</span>
+                </div>
+                <input type="range" class="slider slider-primary slider-circle rr-slider" min="1" max="100" value="50">
+
+
+                <div class="vertical-padding">
+                    <h4>Categories</h4>
+                </div>
+                <div class="nav-filter-categories">
+                    <div>
+                        <input type='checkbox' checked='' /><label>Marvel</label>
+                    </div>
+                    <div>
+                        <input type='checkbox' /><label>DC</label>
+                    </div>
+                </div>
+
+
+                <div class="vertical-padding">
+                    <h4>Rating</h4>
+                </div>
+                <div class="nav-filter-rating">
+                    <div>
+                        <input type='radio' /><label>4 stars and above</label>
+                    </div>
+                    <div>
+                        <input type='radio' /><label>3 stars and above</label>
+                    </div>
+                    <div>
+                        <input type='radio' checked='' /><label>2 stars and above</label>
+                    </div>
+                    <div>
+                        <input type='radio' /><label>1 stars and above</label>
+                    </div>
+                </div>
+
+
+                <div class="vertical-padding">
+                    <h4>Sort By</h4>
+                </div>
+                <div class="nav-filter-categories">
+                    <div>
+                        <input type='radio' checked='' /><label>Price - Low to High</label>
+                    </div>
+                    <div>
+                        <input type='radio' /><label>Price - Low to High</label>
+                    </div>
+                </div>
+
+            </aside>
+
+            <!-- content-box -->
+
+            <section class="rr-listing-content">
+
+                <div class="wishlist-box">
+                   
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+       
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="wishlist-box-card">
+                        <div class="card card-shadow product-card-bg">
+                            <div>
+                                <img class='image-responsive check-img' style='padding:0.5rem;'
+                                    src='/Images-Ecom/product Image.jpg' alt='product image' />
+                            </div>
+                            <div class="card-prod-description">
+                                <div class="rr-card-container">
+                                    <h3 class="product-title">Robin #130</h3>
+                                    <button class="btn btn-icon like-btn rr-product-like-btn"><i
+                                            class="fa fa-heart"></i></button>
+                                </div>
+
+                                <div class="product-price product-title">
+                                    <p>Rs. 200</p>
+                                    <p class="card-text-decoration">Rs. 400</p>
+                                    <p>50% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn product-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>
