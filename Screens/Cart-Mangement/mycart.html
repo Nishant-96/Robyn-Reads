@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Images-Ecom/rr-favicon-2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://robyn-ui.netlify.app/components/import.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>Robyn Reads | Cart</title>
+</head>
+<body>
+    <header class="rr-nav-container">
+        <div class="header-logo"><a href="#"><img class="logo" src="/Images-Ecom/rr-logo.png"></a></div>
+       
+        <nav class="rr-nav-box">
+            <input class="nav-search" type="search" placeholder="Search">
+            <div class="nav-item"><button class="btn btn-float nav-btn nav-btn-icon" onclick="window.location.href='/Screens/Authentication';"><i class="fa fa-user" aria-hidden="true"></i>
+            </button></div>
+            <div class="nav-item"><button class="btn btn-float nav-btn nav-btn-icon" onclick="window.location.href='/Screens/Wishlist/wishlist.html';"><i class="fa fa-heart" aria-hidden="true"></i>
+            </button></div>
+            <div class="nav-item "><button class="btn btn-float nav-btn nav-btn-icon" onclick="window.location.href='/index.html';"><i class="fa fa-sign-out" aria-hidden="true"></i>
+            </button></div>
+        </nav>
+    </header>
+
+
+    <main class="rr-wrapper">
+
+        <div class="cart-management-container">
+
+            <div>
+                <h2>My Cart</h2>
+            </div>
+
+            <div class="cart-management-box"> 
+
+                <div class="cart-content-box">
+    
+                    <div class="card-horizontal  card-shadow product-card-bg rr-horizontal-card">
+                        <div>
+                            <img class='image-responsive rr-card-img' src='/Images-Ecom/product Image.jpg'
+                                alt='product image' />
+                        </div>
+        
+                        <div class="card-prod-description rr-horizontal-description">
+                            <h3 class="product-title">Robin #130</h3>
+                            <div class="product-price product-title">
+                                <p>Rs. 200</p>
+                                <p class="card-text-decoration">Rs. 400</p>
+                                <p>50% off</p>
+        
+                            </div>
+                            <div class="product-qty-box">
+                                <button class="btn btn-float product-qty-item"><i class="fa fa-minus"
+                                        aria-hidden="true"></i></button>
+                                <input class="product-qty-input-item" type='number' placeholder="10" value="10" />
+                                <button class="btn btn-float product-qty-item"><i class="fa fa-plus"
+                                        aria-hidden="true"></i></button>
+                            </div>
+        
+        
+                            <button class="btn btn-primary card-btn product-btn">Remove From Cart</button>
+                            <button class="btn btn-outlined card-btn product-outline-btn">Move To Wishlist</button>
+                        </div>
+        
+                    </div>
+    
+    
+    
+                    <div class="card-horizontal  card-shadow product-card-bg rr-horizontal-card">
+                        <div>
+                            <img class='image-responsive rr-card-img' src='/Images-Ecom/product Image.jpg'
+                                alt='product image' />
+                        </div>
+        
+                        <div class="card-prod-description rr-horizontal-description">
+                            <h3 class="product-title">Robin #130</h3>
+                            <div class="product-price product-title">
+                                <p>Rs. 200</p>
+                                <p class="card-text-decoration">Rs. 400</p>
+                                <p>50% off</p>
+        
+                            </div>
+                            <div class="product-qty-box">
+                                <button class="btn btn-float product-qty-item"><i class="fa fa-minus"
+                                        aria-hidden="true"></i></button>
+                                <input class="product-qty-input-item" type='number' placeholder="10" value="10" />
+                                <button class="btn btn-float product-qty-item"><i class="fa fa-plus"
+                                        aria-hidden="true"></i></button>
+                            </div>
+        
+        
+                            <button class="btn btn-primary card-btn product-btn">Remove From Cart</button>
+                            <button class="btn btn-outlined card-btn product-outline-btn">Move To Wishlist</button>
+                        </div>
+        
+                    </div>
+    
+    
+                </div>
+    
+    
+    
+                <div class="rr-cart-details">
+                    <h3>Price Details</h3>
+                    <hr>
+                    <div class="price-detail-container">
+                        <div>
+                            <p>Price (10 items)</p>
+                            <p>Rs. 4000</p>
+                        </div>
+                        <div>
+                            <p>Discount</p>
+                            <p>- Rs. 2000</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="price-detail-container">
+                        <div>
+                            <p>Total Amount</p>
+                            <p>Rs. 2000</p>
+                        </div>
+                        <div>
+                            <p>Total Saved</p>
+                            <p>Rs. 2000</p>
+                        </div>
+    
+                    </div>
+                    <button class="btn btn-primary card-btn product-btn" onclick="window.location.href='/Screens/Order-Summery/ordersummary.html';">Proceed To Checkout</button>
+                    <button class="btn btn-outlined card-btn product-btn-outlined ">Share Your Cart</button>
+                </div>
+    
+    
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+    
+</body>
+</html>
