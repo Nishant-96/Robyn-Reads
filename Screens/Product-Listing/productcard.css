@@ -45,6 +45,10 @@
     padding: 0.8rem;
 }
 
+.rr-card-img-p{
+    padding: 0.5rem;
+}
+
 .product-qty-box{
     display: flex;
     justify-content: center;
@@ -76,3 +80,37 @@
     background-color: transparent;
 }
 
+/* single product page */
+
+.product-page-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 10rem;
+    padding: 1.5rem;
+  }
+
+  .product-page-img{
+    width: 17rem;
+  }
+  
+  .product-page-wrapper-col{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+    width: fit-content;
+    gap: 0.8rem;
+  }
+  
+  .product-page-wrapper-col > div > p{
+    text-align: justify;
+  }
+  
+  .product-page-wrapper-btn{
+    display: flex;
+    gap: 1rem;
+  }
+  
+ 
